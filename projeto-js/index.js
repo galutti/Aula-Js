@@ -23,7 +23,7 @@ console.log(resultado);
 //let palavra que cria a variável
 //const palavra que cria a variável
 //var palavra que cria a variável 
-let idade = 16;
+//let idade = 16;
 //idade nome (etiqueta)
 //=  (atribuição)
 //16 valor
@@ -81,12 +81,96 @@ console.log("Olá, " + "!";
       */
      
      //Tipos Primitivos
-     const preco = 19.9;
-     console.log (typeof nome);
+
+     /**
+      const preco = 19.9;
+     console.log (typeof preco);
 
      const name = "Lucas";
-     console.log(typeof ativo);
-     
+     console.log(typeof nome);
 
+     const ativo = true;
+     console.log(typeof ativo);
+
+     const vazio = null;
+     console.log(typeof vazio);
+
+     let indefinido;
+     console.log(typeof indefinido)
+      */
+
+      /**
+        strings e Template Literals
+    const name1 = "Felipe";
+     const name3 = "João";
+
+    const nomeCompleto = " Felipe Rodrigues Galutti";
+
+     console.log(nomeCompleto.length);
+     console.log(nomeCompleto.toUpperCase());
+     console.log(nomeCompleto.toLowerCase());
+
+     console.log(`Ola, meu nome é {nomeCompleto} e tenho ${idade} anos. ´)
      
-     
+       */
+
+    /**
+      conversões de Tipo
+    console.log(Number("123"));
+    console.log(parseInt("10.9"));
+    console.log(parseFloat("10.9"));
+    console.log(String(123));
+
+    console.log(Boolean(0));
+    console.log(Boolean(1));
+    console.log(Boolean (""));
+
+    const texto1 = prompt("Digite um número:");
+    const texto = Number(prompt("Digite um numero"));
+
+    console.log(texto + 5);
+    Arredondamento e formatando Números
+     */
+   
+    
+  
+
+    /**
+     Operadores Aritmeticos
+    console.log(2 +3);
+    console.log(5 - 2);
+    console.log(4 * 2);
+    console.log(10 / 2);
+    console.log(10 % 3)
+    console.log(2 ** 3);
+     */
+    
+    /**
+     Operadores de Comparação 
+   console.log(5 == "5"); // igual frouxo
+   console.log(5 == "5"); // igual frouxo  
+
+    console.log(5 === "5"); // igual estrito
+    console.log(5 == 5) // igual estrito
+
+    console.log(5 != "5") //diferente frouxo
+     console.log(5 != 7) //diferente frouxo
+
+     console.log(5 !== "5") //diferente estrito
+     console.log(5 !==7) //diferente estrito
+     */
+
+   // Média de duas notas
+     const n1 = Number(prompt("Primeira nota:"));
+     const n2 = Number(prompt ("Segunda nota:"));
+
+     const media = (n1 + n2) / 2;
+
+     console.log(`média: ${media.toFixed(1)}`);
+
+     //IMC (Indice de Massa Corporal)
+     const peso = Number(prompt("Digite seu peso (Kg);"));
+     const altura = Number(prompt ("Altura (m):"));
+
+    
+
