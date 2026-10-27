@@ -125,10 +125,10 @@
 //8-)
 // Mostre as tabuadas do 1 ao 10, cada uma de x1 até x10, com um título antes de cada tabuada. Use um laço dentro de outro.
 
-for(let tabuada =1; tabuada <= 10; tabuada++){
-    console.log(`--- Tabuada do ${tabuada} ---`);
+// for(let tabuada =1; tabuada <= 10; tabuada++){
+//     console.log(`--- Tabuada do ${tabuada} ---`);
 
-    for (let i =1; i<=10; i++) {
-        console.log(`${tabuada} x ${i} = ${tabuada * i}`);
-    }
-}
+//     for (let i =1; i<=10; i++) {
+//         console.log(`${tabuada} x ${i} = ${tabuada * i}`);
+//     }
+// }
